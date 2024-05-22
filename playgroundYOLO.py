@@ -8,7 +8,7 @@ else:
     print ("MPS device not found.")
 
 
-model = YOLO('yolov8l')
+model = YOLO('yolov8x')
 # model.predict('clips/0a2d9b_0.mp4',save=True)
 results= model.predict('clips/0a2d9b_0.mp4', save=True, device=mps_device)
 print(results[0])
