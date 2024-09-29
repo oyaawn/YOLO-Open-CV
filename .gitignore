@@ -2,9 +2,7 @@
 *.pt
 clips
 runs
-=======
 .g
->>>>>>> refs/remotes/origin/main
 # Ignore macOS system files
 .DS_Store
 
