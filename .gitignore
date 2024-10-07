@@ -8,3 +8,5 @@ runs
 
 # Ignore virtual environments
 myenv/
+# Ignore dataset directory
+training/football-players-detection-12/
